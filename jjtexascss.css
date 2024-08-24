@@ -1,0 +1,208 @@
+body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        /*background-image: url("bg.jpg");*/
+        background-color:white;
+        background-attachment: fixed;
+        background-size: cover;
+}
+
+/*cindivine intro*/
+.logo {
+	background-color: white;
+	background: black;
+	height: auto;
+	font-weight: bold;
+	padding-bottom: 2.5rem;
+}
+
+.logo h1{
+	color: white;
+	background: black;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	margin-left: 0;
+	margin-right: 0;
+	font-family: Helvetica, sans-serif;
+	overflow: hidden;
+	width: 100%;
+
+}
+
+.logo h4{
+	color: white;
+	background: black;
+	padding-top: 2rem;
+	padding-bottom: 0rem;
+	margin-left: 0;
+	margin-right: 0;
+	font-family: Helvetica, sans-serif;
+	overflow: hidden;
+	width: 100%;
+}
+
+#comp{
+	background-color: white;
+}
+
+#beginning{
+	
+}
+
+p {
+        font-size: 1rem;
+        padding: 0px;
+	color: black;
+	font-family: 'Josefin Sans', serif;
+}
+
+.container, h3{
+	color: black;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	padding-top: 2.5rem;
+
+	font-family: 'Josefin Slab', serif;
+}
+
+.mobile h3{
+	color: darkolivegreen;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+
+	font-family: 'Josefin Slab', serif;
+}
+
+
+/*slideshow*/
+#words, #payment{
+		        background-color:white;
+		        border-bottom: 3px dotted black;
+		        border-top: 3px dotted black;
+		        padding: 3rem;
+}
+
+/*Rows and Columns*/
+.row {
+	color: black;
+	padding-bottom: 3rem;
+	padding-right: 0;
+	padding-left: 0;
+	background-color: snow;
+}
+
+.col a {
+	color: pink;
+	text-decoration: none;
+}
+
+.col a:hover {
+	color: darkolivegreen;
+	text-decoration: none;
+}
+
+.link a{
+	text-decoration: none;
+	color: pink;
+}
+
+.col h2{
+	color: pink;
+        background: black;
+}
+
+
+.mlogo h1{
+	color: pink;
+	}
+.mlogo a{
+        color: pink;
+        font-size: 15px;
+        vertical-align: middle;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+.mlogo a:hover {
+    color: darkolivegreen;
+
+ }
+
+.mobile, .mlogo{
+	display: none;
+	border-bottom: 3px dotted black;
+}
+
+
+footer {
+  	padding-top: 3rem;
+  	padding-bottom: 3rem;
+	background-color: black;
+    color: snow;
+	border-top: 3px dotted black;
+
+}
+
+
+footer p {
+  margin-bottom: .25rem;
+  color: snow;
+  background-color: black;
+}
+
+@media only screen and (max-width:850px){
+
+
+
+	.slideshow-container{
+		padding-top: 0rem;
+	}
+
+	footer{
+		margin-top: 0rem;
+	}
+
+	
+}
+
+.btn-primary{
+	background-color: black;
+}
+
+@media only screen and (max-width:1000px){
+
+	#payment{
+		display: none;
+	}
+
+	#beginning, #words{
+		display:none;
+	}
+
+	.tarot{
+		border-top: 3px dotted black;
+		border-bottom: 3px dotted black;
+	}
+
+	.mobile{
+		display: initial;
+	}
+
+	.slideshow-container{
+		margin-top: 3rem;
+	}
+
+		.myS{
+		padding-right: 3rem;
+		padding-left: 3rem;
+	}
+
+	.faq{
+		padding-top: 0;
+		border-top: 3px dotted black;
+	}
+}

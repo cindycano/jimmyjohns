@@ -1,0 +1,335 @@
+<!doctype html>
+	<html lang="en">
+		
+	<head>
+        <title>Jimmy John's - Brumfield Enterprises</title>
+	    <meta charset="utf-8"/>
+	    <link rel="stylesheet" type="text/css" href="jjtexascss.css">
+	    <link rel="icon" href="https://raw.githubusercontent.com/cindycano/jimmyjohns/master/jjlogo.png">
+	            
+	   	<!-- Bootstrap core CSS -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+	    <!-- Custom styles for this template -->
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://unpkg.com/formiojs@latest/dist/formio.full.min.css">
+		<script src="https://unpkg.com/formiojs@latest/dist/formio.full.min.js"></script>
+	</head>
+
+
+	<body>
+
+  		<style>
+			* {box-sizing: border-box}
+			body {font-family: Josefin Slab, serif; margin:0}
+
+			/* Slideshow container */
+			.slideshow-container {
+				position: relative;
+				background-color: white;
+				color: black;
+				border: 3px dashed black;
+			}
+
+			/* Slides */
+			.mySlides {
+				display: none;
+				padding: 80px;
+				text-align: center;
+			}
+
+			/* Next & previous buttons */
+			.prev, .next {
+				cursor: pointer;
+				position: absolute;
+				top: 50%;
+				width: auto;
+				margin-top: -30px;
+				padding: 16px;
+				color: darkolivegreen;
+				font-weight: bold;
+				font-size: 20px;
+				border-radius: 0 3px 3px 0;
+				user-select: none;
+			}
+
+			.prev {
+				position: absolute;
+				left: 0;
+				border-radius: 3px 0 0 3px;
+				color:darkolivegreen;
+			}
+
+			/* Position the "next button" to the right */
+			.next {
+				position: absolute;
+				right: 0;
+				border-radius: 3px 0 0 3px;
+				color:darkolivegreen;
+			}
+
+			/* On hover, add a black background color with a little bit see-through */
+			.prev:hover, .next:hover {
+				background-color: darkolivegreen;
+				color: darkolivegreen;
+			}
+
+			/* The dot/bullet/indicator container */
+			.dot-container {
+				text-align: center;
+				padding: 20px;
+				background: #ddd;
+			}
+
+			/* The dots/bullets/indicators */
+			.dot {
+				cursor: pointer;
+				height: 15px;
+				width: 15px;
+				margin: 0 2px;
+				background-color: #bbb;
+				border-radius: 50%;
+				display: inline-block;
+				transition: background-color 0.6s ease;
+			}
+
+			/* Add a background color to the active dot/circle */
+			.active, .dot:hover {
+				background-color: #717171;
+			}
+			/* Add an italic font style to all quotes */
+			q {font-style: italic;}
+
+			/* Add a blue color to the author */
+			.author {color: black;}
+		</style>
+
+	<div class="logo">
+
+		<div class = "name">
+			<img src="https://raw.githubusercontent.com/cindycano/jimmyjohns/master/jjlogo.png" alt="logo" height="auto" width="1%"/>
+			<h1>Jimmy John's</h1>
+			<h4>Employees -
+			Managers -
+			Fast Track -
+			Schedules -
+			HR</h4>
+		</div>
+
+	</div>
+
+
+	<div class="comp">
+
+		<div class="row align-items-center" id="beginning">
+
+			<div class="col-6 px-md-5 align-middle">
+		      	<div class="itsame align-middle">
+		      		<img src="sand.jpg" alt="logo" height="auto" width="100%"/>
+				</div>
+			</div>
+					
+			<div class="col-6 px-md-5 align-middle" >
+				<div class="container">
+			    	<h3/>Announcements</h3>
+			    	<br />
+					<p class="align-middle pt-3">
+						Hello love u
+						<br /><br />
+						Mediterranean LTO lasts until October, please make sure we have enough product to last but not go over.
+						<br /><br />
+						Pumpkin cookies start August 19!
+						<br /><br />
+						Please make sure DBL's and After Lunches are being done.
+						<br /><br />
+				
+					</p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<h1>Employee of the Year 2023</h1>
+
+			<div class="slideshow-container">
+
+				<div class="mySlides">
+					<h2>Bart Simpson</h2>
+					<h4>Harlingen</h4>
+					<p class="author">Bart passed a menu test after 3 days of employment and has now completed his 30 Day Rookie to Rockstar training.  With on the road times of 11:52, he’s going places!</p>
+				</div>
+
+				<div class="mySlides">
+					<h2>Finn the Human</h2>
+					<h4>Weslaco</h4>
+					<p class="author">Finn passed a menu test after 3 days of employment and has now completed his 30 Day Rookie to Rockstar training.  With on the road times of 11:52, he’s going places!</p>
+				</div>
+
+				<div class="mySlides">
+					<h2>Jessica Day</h2>
+					<h4>Mcallen</h4>
+					<p class="author">Jess passed a menu test after 3 days of employment and has now completed his 30 Day Rookie to Rockstar training.  With on the road times of 11:52, he’s going places!</p>
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">❮</a>
+				<a class="next" onclick="plusSlides(1)">❯</a>
+
+			</div>
+
+			<div class="dot-container">
+				<span class="dot" onclick="currentSlide(1)"></span> 
+				<span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
+
+   
+	</div>
+
+	<div class="mobile">
+		<div class="row justify-content-between align-items-center">
+			<div class="col">
+				<div class="slideshow-container">
+
+				<div class="myS">
+					<q>Cindy is gifted and amazing, and full of positive energy! I've had my cards read twice and both times have been extremely accurate and guided me in the right direction. If you are looking for an accurate reader and life coach, look no further, her insight is amazing! Highly Recommend.</q>
+					<p class="author">-K. R.</p>
+				</div>
+
+				<div class="myS">
+					<q>Thank you so much! The reading was accurate and incredibly easy to follow. I'm glad I'm able to save the reading to come back to and meditate on later!</q>
+					<p class="author">- A. C.</p>
+				</div>
+
+				<div class="myS">
+					<q>It is true what you said. I am gonna graduate soon and there isnt a guide into real life, but I do tend to put everyone’s happiness and needs over mine forgetting to love myself and care for who I am/thinking of me.</q>
+					<p class="author">- E. M.</p>
+				</div>
+
+				<a class="prev" onclick="plusS(-1)">❮</a>
+				<a class="next" onclick="plusS(1)">❯</a>
+
+			</div>
+
+			<div class="dot-container">
+				<span class="dot" onclick="currentS(1)"></span> 
+				<span class="dot" onclick="currentS(2)"></span> 
+				<span class="dot" onclick="currentS(3)"></span> 
+			</div>
+       	</div><!-- /.col-lg-4 -->
+		</div>
+
+		<div class="row justify-content-between align-items-center">
+			<div class="col">
+			<div class="paypal">
+				<center>
+					<h3>Donations</h3>
+					<br />
+					<p>Cash App: cin.die<br /><br />
+					Venmo: cin.die<br /><br />
+					Paypal:
+					</p>
+
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_donations" />
+					<input type="hidden" name="business" value="PT5WAJNHVGWMU" />
+					<input type="hidden" name="currency_code" value="USD" />
+					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+					<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+					</form>
+
+				</center>
+			</div>
+        	</div><!-- /.col-lg-4 -->
+		</div>
+	</div>
+
+					
+</div>
+
+
+<footer>
+    <div class="container">
+    	<p>Brumfield Enterprises, LLC.</p>
+    </div>
+</footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-104916537-1', 'auto');
+ ga('send', 'pageview');
+        </script>
+
+<script type="text/javascript">
+  window.onload = function() {
+    Formio.createForm(document.getElementById('formio'), 'https://watnaisvyqaoqkl.form.io/tarot');
+  };
+</script>
+
+			<script>
+						var slideIndex = 1;
+						showSlides(slideIndex);
+
+						function plusSlides(n) {
+						  showSlides(slideIndex += n);
+						}
+
+						function currentSlide(n) {
+						  showSlides(slideIndex = n);
+						}
+
+						function showSlides(n) {
+						  var i;
+						  var slides = document.getElementsByClassName("mySlides");
+						  var dots = document.getElementsByClassName("dot");
+						  if (n > slides.length) {slideIndex = 1}    
+						  if (n < 1) {slideIndex = slides.length}
+						  for (i = 0; i < slides.length; i++) {
+						      slides[i].style.display = "none";  
+						  }
+						  for (i = 0; i < dots.length; i++) {
+						      dots[i].className = dots[i].className.replace(" active", "");
+						  }
+						  slides[slideIndex-1].style.display = "block";  
+						  dots[slideIndex-1].className += " active";
+						}
+			</script>
+
+
+			<script>
+						var sIndex = 1;
+						showS(sIndex);
+
+						function plusS(n) {
+						  showS(sIndex += n);
+						}
+
+						function currentS(n) {
+						  showS(sIndex = n);
+						}
+
+						function showS(n) {
+						  var i;
+						  var s = document.getElementsByClassName("myS");
+						  var dots = document.getElementsByClassName("dot");
+						  if (n > s.length) {sIndex = 1}    
+						  if (n < 1) {sIndex = s.length}
+						  for (i = 0; i < s.length; i++) {
+						      s[i].style.display = "none";  
+						  }
+						  for (i = 0; i < dots.length; i++) {
+						      dots[i].className = dots[i].className.replace(" active", "");
+						  }
+						  s[sIndex-1].style.display = "block";  
+						  dots[sIndex-1].className += " active";
+						}
+			</script>
+	</html>

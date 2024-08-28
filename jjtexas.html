@@ -4,7 +4,7 @@
 	<head>
         <title>Jimmy John's - Brumfield Enterprises</title>
 	    <meta charset="utf-8"/>
-	    <link rel="stylesheet" type="text/css" href="jjtexascss.css">
+	    <link rel="stylesheet" type="text/css" href="main.css">
 	    <link rel="icon" href="https://raw.githubusercontent.com/cindycano/jimmyjohns/master/jjlogo.png">
 	            
 	   	<!-- Bootstrap core CSS -->
@@ -109,13 +109,35 @@
 	<div class="logo">
 
 		<div class = "name">
-			<img src="https://raw.githubusercontent.com/cindycano/jimmyjohns/master/jjlogo.png" alt="logo" height="auto" width="1%"/>
-			<h1>Jimmy John's</h1>
-			<h4>Employees -
-			Managers -
-			Fast Track -
-			Schedules -
-			HR</h4>
+			<div class="row justify-content-between" id="top">
+
+				<div class="col-1" id="yes">
+					<img src="jjlogo.png" alt="logo" height="auto" width="100%"/>
+				</div>
+
+				<div class="col-10">
+					<ul class="nav justify-content-center">
+					  <li class="nav-item">
+					    <a class="nav-link active" href="index.html">Employees</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="magazine.html">Managers</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="https://inspirebrands.csod.com/client/inspirebrands/jimmyjohns.aspx">Fast Track</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="https://docs.google.com/spreadsheets/d/16sKdHO3sCqOnif1ZYMUyYYJWMykSV6eM57X2-QIrwVc/edit?gid=170656761#gid=170656761">Schedules</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="contact.html">HR</a>
+					  </li>
+					</ul>
+				</div>
+
+				<div class="col-1">
+				</div>
+			</div>
 		</div>
 
 	</div>
@@ -127,13 +149,19 @@
 
 			<div class="col-6 px-md-5 align-middle">
 		      	<div class="itsame align-middle">
-		      		<img src="sand.jpg" alt="logo" height="auto" width="100%"/>
+
+		      		<h1>Audit Scores</h1>
+		   		
+			   		<div class="graph">
+						<iframe width="357" height="221" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1y1pWVwRhLE7mCbe5DVDYYCQ7AebQ37OgsG0DGV4ZNjY/pubchart?oid=2032037909&amp;format=interactive"></iframe>
+					</div>
+
 				</div>
 			</div>
 					
 			<div class="col-6 px-md-5 align-middle" >
 				<div class="container">
-			    	<h3/>Announcements</h3>
+			    	<h1/>Announcements</h1>
 			    	<br />
 					<p class="align-middle pt-3">
 						Hello love u
@@ -152,38 +180,17 @@
 		</div>
 	</div>
 
-	<h1>Employee of the Year 2023</h1>
+	<div class="employee">
+		<h1>Employee of the Month</h1>
+		<h2>August 2024</h2>
 
-			<div class="slideshow-container">
+		<img src="https://raw.githubusercontent.com/cindycano/jimmyjohns/master/bart.png" alt="logo" height="auto" width="15%"/>
 
-				<div class="mySlides">
-					<h2>Bart Simpson</h2>
-					<h4>Harlingen</h4>
-					<p class="author">Bart passed a menu test after 3 days of employment and has now completed his 30 Day Rookie to Rockstar training.  With on the road times of 11:52, he’s going places!</p>
-				</div>
+		<h3>Bart Simpson</h3>
+		<p class="about">Bart passed a menu test after 3 days of employment and has now completed his 30 Day Rookie to Rockstar training.  With on the road times of 11:52, he’s going places!
+		</p>
 
-				<div class="mySlides">
-					<h2>Finn the Human</h2>
-					<h4>Weslaco</h4>
-					<p class="author">Finn passed a menu test after 3 days of employment and has now completed his 30 Day Rookie to Rockstar training.  With on the road times of 11:52, he’s going places!</p>
-				</div>
-
-				<div class="mySlides">
-					<h2>Jessica Day</h2>
-					<h4>Mcallen</h4>
-					<p class="author">Jess passed a menu test after 3 days of employment and has now completed his 30 Day Rookie to Rockstar training.  With on the road times of 11:52, he’s going places!</p>
-				</div>
-
-				<a class="prev" onclick="plusSlides(-1)">❮</a>
-				<a class="next" onclick="plusSlides(1)">❯</a>
-
-			</div>
-
-			<div class="dot-container">
-				<span class="dot" onclick="currentSlide(1)"></span> 
-				<span class="dot" onclick="currentSlide(2)"></span> 
-				<span class="dot" onclick="currentSlide(3)"></span> 
-			</div>
+	</div>
 
    
 	</div>

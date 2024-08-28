@@ -12,44 +12,45 @@ body {
 
 /*cindivine intro*/
 .logo {
-	background-color: white;
+	background-color: black;
 	background: black;
 	height: auto;
 	font-weight: bold;
-	padding-bottom: 2.5rem;
-}
-
-.logo h1{
-	color: white;
-	background: black;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-	margin-left: 0;
-	margin-right: 0;
-	font-family: Helvetica, sans-serif;
-	overflow: hidden;
-	width: 100%;
-
-}
-
-.logo h4{
-	color: white;
-	background: black;
-	padding-top: 2rem;
 	padding-bottom: 0rem;
+	width: 100%;
+}
+
+.logo a{
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+	color: white;
+	background: black;
+	vertical-align: bottom;
 	margin-left: 0;
 	margin-right: 0;
 	font-family: Helvetica, sans-serif;
 	overflow: hidden;
 	width: 100%;
 }
+
+#yes{
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	vertical-align: middle;
+}
+
+.logo a:hover {
+    color: red;
+
+ }
 
 #comp{
 	background-color: white;
 }
 
-#beginning{
-	
+
+.employee{
+	padding-top: 2rem;
 }
 
 p {
@@ -89,10 +90,6 @@ p {
 /*Rows and Columns*/
 .row {
 	color: black;
-	padding-bottom: 3rem;
-	padding-right: 0;
-	padding-left: 0;
-	background-color: snow;
 }
 
 .col a {
@@ -152,6 +149,7 @@ footer p {
   margin-bottom: .25rem;
   color: snow;
   background-color: black;
+  font-family: Helvetica, sans-serif;
 }
 
 @media only screen and (max-width:850px){

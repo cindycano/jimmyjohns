@@ -2,302 +2,227 @@
 	<html lang="en">
 		
 	<head>
-        <title>Jimmy John's - Brumfield Enterprises</title>
+        <title>Brumfield Enterprises, Inc.</title>
 	    <meta charset="utf-8"/>
 	    <link rel="stylesheet" type="text/css" href="main.css">
-	    <link rel="icon" href="https://raw.githubusercontent.com/cindycano/jimmyjohns/master/jjlogo.png">
-	            
-	   	<!-- Bootstrap core CSS -->
-	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	    <link rel="icon" href="topjj.png">
 
 	    <!-- Custom styles for this template -->
-		<link href="https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="https://unpkg.com/formiojs@latest/dist/formio.full.min.css">
-		<script src="https://unpkg.com/formiojs@latest/dist/formio.full.min.js"></script>
+
 	</head>
 
 
 	<body>
 
-  		<style>
-			* {box-sizing: border-box}
-			body {font-family: Josefin Slab, serif; margin:0}
+		<div class="topnav">
 
-			/* Slideshow container */
-			.slideshow-container {
-				position: relative;
-				background-color: white;
-				color: black;
-				border: 3px dashed black;
-			}
+			<img src="jjlogo.png" alt="logo" height="100" width="100"/>
 
-			/* Slides */
-			.mySlides {
-				display: none;
-				padding: 80px;
-				text-align: center;
-			}
+			<div class="links">
+			  		<div class="dropdown">
+    					<button class="dropbtn">Employees 
+      						<i class="fa fa-caret-down"></i>
+    					</button>
 
-			/* Next & previous buttons */
-			.prev, .next {
-				cursor: pointer;
-				position: absolute;
-				top: 50%;
-				width: auto;
-				margin-top: -30px;
-				padding: 16px;
-				color: darkolivegreen;
-				font-weight: bold;
-				font-size: 20px;
-				border-radius: 0 3px 3px 0;
-				user-select: none;
-			}
+	    				<div class="dropdown-content">
+					      <a href="#">How to Onboard</a>
+					      <a href="#">Request a Transfer</a>
+					      <a href="#">Refer a Friend</a>
+					      <a href="#">Leave Request</a>
+					      <a href="#">Merchandise</a>
+	    				</div>
+  					</div> 
 
-			.prev {
-				position: absolute;
-				left: 0;
-				border-radius: 3px 0 0 3px;
-				color:darkolivegreen;
-			}
+			  		<div class="dropdown">
+    					<button class="dropbtn">Managers 
+      						<i class="fa fa-caret-down"></i>
+    					</button>
 
-			/* Position the "next button" to the right */
-			.next {
-				position: absolute;
-				right: 0;
-				border-radius: 3px 0 0 3px;
-				color:darkolivegreen;
-			}
+	    				<div class="dropdown-content">
+			      			<a href="http://htmlpreview.github.io/?https://github.com/cindycano/jimmyjohns/blob/main/managers.html">Ops Manual</a>
+			      			<a href="https://htmlpreview.github.io/?https://github.com/cindycano/jimmyjohns/blob/main/hiring.html">Hiring/Onboarding</a>
+			      			<a href="http://htmlpreview.github.io/?https://github.com/cindycano/jimmyjohns/blob/main/repair.html">Repair Ticket</a>
+			      			<a href="#">Supplies Ordering Guide</a>
+	    				</div>
+  					</div> 
 
-			/* On hover, add a black background color with a little bit see-through */
-			.prev:hover, .next:hover {
-				background-color: darkolivegreen;
-				color: darkolivegreen;
-			}
+			  	<a href="https://inspirebrands.csod.com/client/inspirebrands/jimmyjohns.aspx">Fast Track</a>
+			  	<a href="https://docs.google.com/spreadsheets/d/16sKdHO3sCqOnif1ZYMUyYYJWMykSV6eM57X2-QIrwVc/edit?gid=170656761#gid=170656761">Schedules</a>
+			  		<div class="dropdown">
+    					<button class="dropbtn">HR 
+      						<i class="fa fa-caret-down"></i>
+    					</button>
 
-			/* The dot/bullet/indicator container */
-			.dot-container {
-				text-align: center;
-				padding: 20px;
-				background: #ddd;
-			}
+	    				<div class="dropdown-content">
+					      <a href="#">How to Onboard</a>
+					      <a href="#">Request a Transfer</a>
+					      <a href="#">Refer a Friend</a>
+					      <a href="#">Leave Request</a>
+					      <a href="#">Merchandise</a>
+	    				</div>
+  					</div> 
 
-			/* The dots/bullets/indicators */
-			.dot {
-				cursor: pointer;
-				height: 15px;
-				width: 15px;
-				margin: 0 2px;
-				background-color: #bbb;
-				border-radius: 50%;
-				display: inline-block;
-				transition: background-color 0.6s ease;
-			}
-
-			/* Add a background color to the active dot/circle */
-			.active, .dot:hover {
-				background-color: #717171;
-			}
-			/* Add an italic font style to all quotes */
-			q {font-style: italic;}
-
-			/* Add a blue color to the author */
-			.author {color: black;}
-		</style>
-
-	<div class="logo">
-
-		<div class = "name">
-			<div class="row justify-content-between" id="top">
-
-				<div class="col-1" id="yes">
-					<img src="jjlogo.png" alt="logo" height="auto" width="100%"/>
-				</div>
-
-				<div class="col-10">
-					<ul class="nav justify-content-center">
-					  <li class="nav-item">
-					    <a class="nav-link active" href="index.html">Employees</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="magazine.html">Managers</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="https://inspirebrands.csod.com/client/inspirebrands/jimmyjohns.aspx">Fast Track</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="https://docs.google.com/spreadsheets/d/16sKdHO3sCqOnif1ZYMUyYYJWMykSV6eM57X2-QIrwVc/edit?gid=170656761#gid=170656761">Schedules</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="contact.html">HR</a>
-					  </li>
-					</ul>
-				</div>
-
-				<div class="col-1">
-				</div>
 			</div>
 		</div>
 
-	</div>
+		<div class="comp" id="beginning">
+			   		
+			<div class="graph">
+				<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1Zfs9ga7prIZ9LLHjeNm84qicyYSeRD70NSQIgJcwYKE/pubchart?oid=222947128&amp;format=interactive"></iframe>
+			</div>
 
+		
+			<div class="announce">
+				<h1/>Announcements</h1>
+				<br />
+				<p>
+					This is where announcements can go.
+					<br/><br/>
+					Any font, color, design can be changed.
+					<br /><br />
+					Placement of items can be changed as well.
+										
+				</p>
+			</div>
+				
+		</div>
 
-	<div class="comp">
+		<div class="mobile-container">
 
-		<div class="row align-items-center" id="beginning">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+				<!-- Top Navigation Menu -->
+			<div class="mnav">
+  				<a href="jjtexas.html" class="active">
+  					<img src="jjlogo.png" alt="logo" height="auto" width="25%"/>
+  				</a>
 
-			<div class="col-6 px-md-5 align-middle">
-		      	<div class="itsame align-middle">
-
-		      		<h1>Audit Scores</h1>
-		   		
-			   		<div class="graph">
-						<iframe width="357" height="221" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1y1pWVwRhLE7mCbe5DVDYYCQ7AebQ37OgsG0DGV4ZNjY/pubchart?oid=2032037909&amp;format=interactive"></iframe>
+  				<div id="myLinks">
+					<button class="accordion">Employees
+					   <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="panel">
+					      <a href="#">How to Onboard</a>
+					      <a href="#">Request a Transfer</a>
+					      <a href="#">Refer a Friend</a>
+					      <a href="#">Leave Request</a>
+					      <a href="#">Merchandise</a>
+					</div>
+					<button class="accordion">Managers
+					   <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="panel">
+					      <a href="http://htmlpreview.github.io/?https://github.com/cindycano/jimmyjohns/blob/main/managers.html">Ops Manual</a>
+			      			<a href="https://htmlpreview.github.io/?https://github.com/cindycano/jimmyjohns/blob/main/hiring.html">Hiring/Onboarding</a>
+			      			<a href="http://htmlpreview.github.io/?https://github.com/cindycano/jimmyjohns/blob/main/repair.html">Repair Ticket</a>
+			      			<a href="#">Supplies Ordering Guide</a>
+					</div>
+			  		<a href="https://inspirebrands.csod.com/client/inspirebrands/jimmyjohns.aspx">Fast Track</a>
+			  		<a href="https://docs.google.com/spreadsheets/d/16sKdHO3sCqOnif1ZYMUyYYJWMykSV6eM57X2-QIrwVc/edit?gid=170656761#gid=170656761">Schedules</a>
+			  		<button class="accordion">HR
+					   <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="panel">
+					      <a href="#">How to Onboard</a>
+					      <a href="#">Request a Transfer</a>
+					      <a href="#">Refer a Friend</a>
+					      <a href="#">Leave Request</a>
+					      <a href="#">Merchandise</a>
 					</div>
 
-				</div>
-			</div>
-					
-			<div class="col-6 px-md-5 align-middle" >
-				<div class="container">
-			    	<h1/>Announcements</h1>
-			    	<br />
-					<p class="align-middle pt-3">
-						Hello love u
-						<br /><br />
-						Mediterranean LTO lasts until October, please make sure we have enough product to last but not go over.
-						<br /><br />
-						Pumpkin cookies start August 19!
-						<br /><br />
-						Please make sure DBL's and After Lunches are being done.
-						<br /><br />
-				
-					</p>
-				</div>
-			</div>
-			
-		</div>
-	</div>
+  				</div>
 
-	<div class="employee">
-		<h1>Employee of the Month</h1>
-		<h2>August 2024</h2>
-
-		<img src="https://raw.githubusercontent.com/cindycano/jimmyjohns/master/bart.png" alt="logo" height="auto" width="15%"/>
-
-		<h3>Bart Simpson</h3>
-		<p class="about">Bart passed a menu test after 3 days of employment and has now completed his 30 Day Rookie to Rockstar training.  With on the road times of 11:52, he’s going places!
-		</p>
-
-	</div>
-
-   
-	</div>
-
-	<div class="mobile">
-		<div class="row justify-content-between align-items-center">
-			<div class="col">
-				
-			</div>
-       	</div><!-- /.col-lg-4 -->
+  				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  					<i class="fa fa-bars"></i>
+  				</a>
+  			</div>
 		</div>
 
-		<div class="row justify-content-between align-items-center">
-			<div class="col">
-			<div class="paypal">
-				<center>
+<!-- End smartphone / tablet look -->
 
-				</center>
+		<div class="mobile">
+
+			<div class="announce">
+				<h2/>Announcements</h2>
+				<br />
+				<p>
+					This is where announcements can go.
+							<br/><br/>
+					Any font, color, design can be changed.
+							<br /><br />
+					Placement of items can be changed as well.
+
+				</p>
 			</div>
-        	</div><!-- /.col-lg-4 -->
+
+			<div class="graph">
+				<iframe width="407" height="252" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1Zfs9ga7prIZ9LLHjeNm84qicyYSeRD70NSQIgJcwYKE/pubchart?oid=6250908&amp;format=interactive"></iframe>
+			</div>
+
+
 		</div>
-	</div>
 
-					
-</div>
+		<hr class="dotted">
 
 
-<footer>
-    <div class="container">
-    	<p>Brumfield Enterprises, LLC.</p>
-    </div>
-</footer>
+		<div class="employee">
 
-    <!-- Bootstrap core JavaScript
+			<h1 class="emp">Employee of the Month</h1>
+			<h2 class="memp">Employee of the Month</h2>
+			<h2>August 2024</h2>
+
+			<img src="bart.png" alt="logo" height="auto" width="10%"/>
+
+			<h3>Bart Simpson</h3>
+			<p class="about">Bart passed a menu test after 3 days of employment and has now completed his 30 Day Rookie to Rockstar training. 
+			</p>
+			<p class="about">With on the road times of 11:52, he’s going places!
+			</p>
+
+		</div>
+	</body>
+
+	<footer>
+	    <div class="container">
+	    	<p>Brumfield Enterprises, Inc.</p>
+	    </div>
+	</footer>
+
+    <!-- JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-          ga('create', 'UA-104916537-1', 'auto');
- ga('send', 'pageview');
-        </script>
 
-<script type="text/javascript">
-  window.onload = function() {
-    Formio.createForm(document.getElementById('formio'), 'https://watnaisvyqaoqkl.form.io/tarot');
-  };
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
 </script>
 
-			<script>
-						var slideIndex = 1;
-						showSlides(slideIndex);
 
-						function plusSlides(n) {
-						  showSlides(slideIndex += n);
-						}
+    <script>
+	    function myFunction() {
+	  var x = document.getElementById("myLinks");
+	  if (x.style.display === "block") {
+	    x.style.display = "none";
+	  } else {
+	    x.style.display = "block";
+	  }
+	}
+	</script>
 
-						function currentSlide(n) {
-						  showSlides(slideIndex = n);
-						}
-
-						function showSlides(n) {
-						  var i;
-						  var slides = document.getElementsByClassName("mySlides");
-						  var dots = document.getElementsByClassName("dot");
-						  if (n > slides.length) {slideIndex = 1}    
-						  if (n < 1) {slideIndex = slides.length}
-						  for (i = 0; i < slides.length; i++) {
-						      slides[i].style.display = "none";  
-						  }
-						  for (i = 0; i < dots.length; i++) {
-						      dots[i].className = dots[i].className.replace(" active", "");
-						  }
-						  slides[slideIndex-1].style.display = "block";  
-						  dots[slideIndex-1].className += " active";
-						}
-			</script>
-
-
-			<script>
-						var sIndex = 1;
-						showS(sIndex);
-
-						function plusS(n) {
-						  showS(sIndex += n);
-						}
-
-						function currentS(n) {
-						  showS(sIndex = n);
-						}
-
-						function showS(n) {
-						  var i;
-						  var s = document.getElementsByClassName("myS");
-						  var dots = document.getElementsByClassName("dot");
-						  if (n > s.length) {sIndex = 1}    
-						  if (n < 1) {sIndex = s.length}
-						  for (i = 0; i < s.length; i++) {
-						      s[i].style.display = "none";  
-						  }
-						  for (i = 0; i < dots.length; i++) {
-						      dots[i].className = dots[i].className.replace(" active", "");
-						  }
-						  s[sIndex-1].style.display = "block";  
-						  dots[sIndex-1].className += " active";
-						}
-			</script>
-	</html>
+</html>

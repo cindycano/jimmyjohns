@@ -197,11 +197,14 @@ body {
 
  .announce{
 	color: black;
-	padding-top: 3rem;
+	padding-top: 1rem;
 	padding-bottom: 6rem;
 	font-family: "Montserrat", sans-serif;
 }
 
+#beginning h1{
+	padding-top: 3rem;
+}
 
 hr.dotted {
   border-top: 3px dotted #bbb;
@@ -212,9 +215,9 @@ hr.dotted {
 	padding-bottom: 6rem;
 }
 
-.employee h1, h2
-{
-	font-family: "Montserrat", sans-serif;
+
+h1, h2{
+	font-family: "Montserrat", sans-serif;;
 }
 
 .employee h3{
@@ -244,11 +247,16 @@ p {
 }
 
 
+
+
 .mobile, .mlogo{
 	display: none;
 	border-bottom: 3px dotted black;
 }
 
+.mgraph{
+	display: none;
+}
 
 footer {
   	padding-top: 3rem;
@@ -276,6 +284,11 @@ footer p {
 .mgraph{
 	display:initial;
 }
+
+.mgraph h1{
+	padding-top:2rem;
+}
+
 	
 }
 
@@ -323,10 +336,6 @@ footer p {
 
 	.mobile-container, .mobile, .memp{
 		display: initial;
-	}
-
-	.mgraph{
-		display:none;
 	}
 
 	.mobile{

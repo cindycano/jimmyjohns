@@ -277,20 +277,6 @@ footer p {
 	footer{
 		margin-top: 0rem;
 	}
-
-.sgraph{
-	display:none;
-}
-
-.mgraph{
-	display: initial;
-}
-
-.mgraph h1{
-	padding-top:2rem;
-}
-
-	
 }
 
 
@@ -337,10 +323,12 @@ footer p {
 	}
 
 
-	.mobile-container, .mobile, .memp{
+	.mobile-container, .mobile, .memp, .mgraph{
 		display: initial;
 	}
-
+.mgraph h1{
+	padding-top:2rem;
+}
 	.mobile{
 		padding-bottom: 5 rem;
 		padding-top: 0rem;

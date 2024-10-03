@@ -199,7 +199,7 @@ body {
 	color: black;
 	padding-top: 1rem;
 	padding-bottom: 6rem;
-	font-family: "Montserrat", sans-serif;
+font-family: "Afacad Flux", sans-serif;
 }
 
 #beginning h1{
@@ -211,19 +211,30 @@ hr.dotted {
 }
 
 .employee{
-	padding-top: 3rem;
-	padding-bottom: 6rem;
+	display: block;
+	background-color: #ebddd7;
+	border-radius: 25px;
+	font-family: "Afacad Flux", sans-serif;
+
 }
 
+.text{
+	background-color: linen;
+	border-radius: 25px;
+}
 
-h1, h2{
-	font-family: "Montserrat", sans-serif;;
+.audit{
+	padding-top: 3rem;
+	padding-bottom:3rem;
 }
 
 .employee h3{
 	padding-bottom: 3rem;
 	padding-top:0rem;
-	font-family: "Montserrat", sans-serif;
+}
+
+h1, h2{
+font-family: "Afacad Flux", sans-serif;
 }
 
 .memp{
@@ -233,7 +244,6 @@ h1, h2{
 p {
         padding: 0px;
 	color: black;
-	font-family: Helvetica, sans-serif;
 }
 
 
@@ -245,8 +255,6 @@ p {
 	padding-top: 1rem;
 	display: block;
 }
-
-
 
 
 .mobile, .mlogo{
@@ -277,7 +285,7 @@ footer p {
 		margin-top: 0rem;
 	}
 
-.sgraph{
+.sgraph, .graph{
 	display:none;
 }
 
@@ -287,6 +295,10 @@ footer p {
 
 .mgraph h1{
 	padding-top:2rem;
+}
+
+.audit{
+	display: none;
 }
 
 	
@@ -320,22 +332,26 @@ footer p {
 
 	.announce{
 		padding-top: 3rem;
-		padding-bottom: 2rem;
+		padding-bottom: 6rem;
 		padding-left: .5rem;
 		padding-right: .5rem;
 	}
 
-	.announce p{
-		padding-bottom:0rem;
-		padding-top: 0rem;
-	}
-
 	.graph{
 		padding-bottom: 2rem;
+		display: initial;
 	}
 
 	.mobile-container, .mobile, .memp{
 		display: initial;
+	}
+
+	.memp{
+			width: 100%;
+			padding-top: 3rem}
+
+	.memp img{
+		border-radius: 25px;
 	}
 
 	.mobile{

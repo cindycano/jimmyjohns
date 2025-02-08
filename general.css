@@ -11,6 +11,7 @@ html,body{
 	display:grid;
 	grid-template-rows: auto 1fr auto;
 }
+
 body {
         text-align: center;
         background-color:white;
@@ -27,15 +28,15 @@ body {
 
 .topnav img{
 	float:left;
-	padding-top: .5rem;
-	padding-bottom: .5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	vertical-align: middle;
 }
 
 
 .links{
-	padding-top: 2.5rem;
-	padding-bottom: 2.5rem;
+	padding-top: 0rem;
+	padding-bottom: 0rem;
 	font-family: Helvetica, sans-serif;
 	font-weight: bold;
 	padding-right: 7rem;

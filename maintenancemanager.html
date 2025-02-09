@@ -97,11 +97,24 @@
 		<div class="comp" id="beginning">
 			   		
 			<div class="announce">
+				<div class="separate">
+					<p>Select Location</p>
+				</div>
 
 				<div class="graph">
-					<br />
-					<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;"></iframe>
-					<br />
+					<select id="leave" onchange="leaveChange(this)">
+						<option value="0">Location</option>
+					  <option value="1">Abilene</option>
+					  <option value="2">Weatherford</option>
+					  <option value="3">San Angelo</option>
+					  <option value="4">Stephenville</option>
+					  <option value="5">Grand Prairie</option>
+					  <option value="6">Benbrook</option>
+					  <option value="7">Granbury</option>
+					  <option value="8">Weslaco</option>
+					  <option value="9">Harlingen</option>
+					</select>
+					<div id="message"></div>
 					<iframe width="845" height="1200" seamless frameborder="0" scrolling="yes" src="https://docs.google.com/document/d/e/2PACX-1vSXymoKNahcmD-Fj_5fO-zd1HUS8FHCmMfh9MAoEXt95D2L6XPhq0o7tnuWZ6iCoWiwTVDJOcwahsGl/pub?embedded=true"></iframe>
 				</div>
 			</div>   
@@ -177,7 +190,25 @@
 <!-- End smartphone / tablet look -->
 
 			<div class="mgraph">
-	<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;"></iframe>
+				<div class="separate">
+					<p>Select Location</p>
+				</div>
+					<select id="leave" onchange="leaveChange2(this)">
+						<option value ="0">Location</option>
+					  <option value="1">Abilene</option>
+					  <option value="2">Weatherford</option>
+					  <option value="3">San Angelo</option>
+					  <option value="4">Stephenville</option>
+					  <option value="5">Grand Prairie</option>
+					  <option value="6">Benbrook</option>
+					  <option value="7">Granbury</option>
+					  <option value="8">Weslaco</option>
+					  <option value="9">Harlingen</option>
+					</select>
+					<div class="separate" >
+					</div>
+					<div id="message2"></div>
+					<br />
 				<div style="left: 0; width: 600; height: 100%; position: relative; padding-bottom: 10rem;"><iframe src="https://docs.google.com/document/d/e/2PACX-1vSXymoKNahcmD-Fj_5fO-zd1HUS8FHCmMfh9MAoEXt95D2L6XPhq0o7tnuWZ6iCoWiwTVDJOcwahsGl/pub?embedded=true" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen></iframe></div>
 			</div>
 
@@ -226,9 +257,65 @@ for (i = 0; i < acc.length; i++) {
 	function leaveChange(control) {
     var msg = control.value;
     if (msg == 1){
-    	document.getElementById("message").innerHTML = <iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A1:C22"></iframe>;
+    	document.getElementById("message").innerHTML = '<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A1:C22"></iframe>;'
     }
-}
+    if (msg == 2){
+    	document.getElementById("message").innerHTML = '<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A23:C44"></iframe>;'
+    }
+    if (msg == 3){
+    	document.getElementById("message").innerHTML = '<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A45:C66"></iframe>;'
+    }
+    if (msg == 4){
+    	document.getElementById("message").innerHTML = '<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A67:C88"></iframe>;'
+    }
+    if (msg == 5){
+    	document.getElementById("message").innerHTML = '<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A89:C110"></iframe>;'
+    }
+    if (msg == 6){
+    	document.getElementById("message").innerHTML = '<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A111:C132"></iframe>;'
+    }
+    if (msg == 7){
+    	document.getElementById("message").innerHTML = '<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A133:C154"></iframe>;'
+    }
+    if (msg == 8){
+    	document.getElementById("message").innerHTML = '<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A155:C176"></iframe>;'
+    }
+    if (msg == 9){
+    	document.getElementById("message").innerHTML = '<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A177:C198"></iframe>;'
+    }
+  }
+</script>
+<script>
+	function leaveChange2(control) {
+    var msg = control.value;
+    if (msg == 1){
+    	document.getElementById("message2").innerHTML = '<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A1:C22"></iframe>;'
+    }
+    if (msg == 2){
+    	document.getElementById("message2").innerHTML = '<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A23:C44"></iframe>;'
+    }
+    if (msg == 3){
+    	document.getElementById("message2").innerHTML = '<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A45:C66"></iframe>;'
+    }
+    if (msg == 4){
+    	document.getElementById("message2").innerHTML = '<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A67:C88"></iframe>;'
+    }
+    if (msg == 5){
+    	document.getElementById("message2").innerHTML = '<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A89:C110"></iframe>;'
+    }
+    if (msg == 6){
+    	document.getElementById("message2").innerHTML = '<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A111:C132"></iframe>;'
+    }
+    if (msg == 7){
+    	document.getElementById("message2").innerHTML = '<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A133:C154"></iframe>;'
+    }
+    if (msg == 8){
+    	document.getElementById("message2").innerHTML = '<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A155:C176"></iframe>;'
+    }
+    if (msg == 9){
+    	document.getElementById("message2").innerHTML = '<iframe width ="385" height = "515"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTHJ2_Zkavoay8j8W-SDvB0b3iAON_hc7XXT63NLo1ek3lA_coFyPRsl7zsiCa4C7kOGGf8P7-N3MR1/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A177:C198"></iframe>;'
+    }
+  }
 </script>
 
 </html>

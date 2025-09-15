@@ -124,8 +124,8 @@ body {
 }
 
 .mnav img{
-	padding-bottom: .5rem;
-	padding-top: .5rem;
+	padding-bottom: 0rem;
+	padding-top: 0rem;
 }
 .mnav a {
   color: white;
@@ -145,7 +145,7 @@ body {
 }
 
 .mnav a.icon:hover{
-	color:red;
+	
 }
 
 
@@ -155,9 +155,7 @@ body {
 }
 
 #myLinks a:hover {
-	background-color: red;
-  	color: black;
-  	text-decoration: none;
+
   	font-weight: bold;
 }
 
@@ -184,8 +182,7 @@ body {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .accordion:hover {
-	background-color: red;
-	color: black;
+	font-weight: bold;
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -195,20 +192,26 @@ body {
   	overflow: hidden;
 }
 
- .announce{
+.picklewhich, .box, .cookie, .rewards, .season{
 	color: black;
-	padding-top: 1rem;
-	padding-bottom: 6rem;
-font-family: "Afacad Flux", sans-serif;
+	display: block;
+	font-family: "Afacad Flux", sans-serif;
 }
 
-#beginning h1{
-	padding-top: 3rem;
+.picklewhich, .box, .cookie, .rewards{
+	padding-top: 2rem;
+	padding-left: 20rem;
+	padding-right: 20rem;
+	padding-bottom: 2rem;
 }
 
-hr.dotted {
-  border-top: 3px dotted #bbb;
+.season{
+	background: #b1db2f;
 }
+.season img{
+	width: 50%;
+}
+
 
 .employee{
 	display: block;
@@ -241,22 +244,6 @@ font-family: "Afacad Flux", sans-serif;
 	display: none;
 }
 
-p {
-        padding: 0px;
-	color: black;
-}
-
-
-/*Rows and Columns*/
-#beginning{
-	color: black;
-	padding-left: 3rem;
-	padding-right: 3rem;
-	padding-top: 1rem;
-	display: block;
-}
-
-
 .mobile, .mlogo{
 	display: none;
 	border-bottom: 3px dotted black;
@@ -267,8 +254,8 @@ p {
 }
 
 footer {
-  	padding-top: 1rem;
-  	padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
 	background-color: black;
 }
 
@@ -285,31 +272,60 @@ footer p {
 		margin-top: 0rem;
 	}
 
-.sgraph, .graph{
-	display:none;
-}
+	.sgraph{
+		display:none;
+	}
 
-.mgraph{
-	display:initial;
-}
+	.mgraph{
+		display:initial;
+	}
 
-.mgraph h1{
-	padding-top:2rem;
-}
+	.mgraph h1{
+		padding-top:2rem;
+	}
 
-.audit{
-	display: none;
-}
+	.audit{
+		display: none;
+	}
 
+	.picklewhich, .box, .cookie, .rewards{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.picklewhich img{
+		width: 100%;
+	}
+
+	.box img{
+		width: 100%;
+	}
+
+	.cookie img{
+		width : 100%;
+	}
+
+	.rewards img{
+		width : 75%;
+	}
 	
 }
 
 
 @media only screen and (max-width:1000px){
 
-	.topnav, #beginning, .emp{
+	.topnav, .employee{
 		display:none;
 
+	}
+
+	.mobile-container, .mobile, .memp{
+	display: initial;
+	}
+
+	.picklewhich, .box, .cookie, .rewards{
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 
 	.dropdown-content a, .dropdown{
@@ -330,22 +346,6 @@ footer p {
 		}
 	}
 
-	.announce{
-		padding-top: 3rem;
-		padding-bottom: 6rem;
-		padding-left: .5rem;
-		padding-right: .5rem;
-	}
-
-	.graph{
-		padding-bottom: 2rem;
-		display: initial;
-	}
-
-	.mobile-container, .mobile, .memp{
-		display: initial;
-	}
-
 	.memp{
 			width: 100%;
 			padding-top: 3rem}
@@ -359,14 +359,4 @@ footer p {
 		padding-top: 0rem;
 	}
 
-	.employee{
-		padding-top: 2rem;
-		padding-bottom: 2rem;
-		padding-right: .5rem;
-		padding-left: .5rem;
-	}
-
-	.employee img{
-		width : 25%;
-	}
 }

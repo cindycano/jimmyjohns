@@ -192,7 +192,20 @@ body {
   	overflow: hidden;
 }
 
-.picklewhich, .box, .cookie, .rewards, .season{
+.title{
+	padding-top: 2rem;
+	padding-left: 20rem;
+	padding-right: 20rem;
+	color: darkred;
+	font-size: 25px;
+}
+
+.title h1{
+		font-family: "Lucinda Handwriting", cursive;
+		font-style: italic;
+}
+
+.picklewhich, .box, .cookie, .rewards{
 	color: black;
 	display: block;
 	font-family: "Afacad Flux", sans-serif;
@@ -205,12 +218,21 @@ body {
 	padding-bottom: 2rem;
 }
 
-.season{
-	background: #b1db2f;
+.cuc{
+	display: block;
+	background-color: #ec1b31;
+	border-radius: 25px;
+	font-family: "Afacad Flux", sans-serif;
+
 }
-.season img{
-	width: 50%;
+
+.dessert{
+	display: block;
+	background-color: #e5f4f9;
+	border-radius: 25px;
+	font-family: "Afacad Flux", sans-serif;
 }
+
 
 
 .employee{
@@ -288,7 +310,7 @@ footer p {
 		display: none;
 	}
 
-	.picklewhich, .box, .cookie, .rewards{
+	.picklewhich, .box, .cookie, .rewards, .title{
 		padding-left: 5%;
 		padding-right: 5%;
 	}
@@ -323,7 +345,7 @@ footer p {
 	display: initial;
 	}
 
-	.picklewhich, .box, .cookie, .rewards{
+	.picklewhich, .box, .cookie, .rewards, .title{
 		padding-left: 5%;
 		padding-right: 5%;
 	}
@@ -346,12 +368,22 @@ footer p {
 		}
 	}
 
+.combine{
+		background-color: #ebddd7;
+	border-radius: 25px;
+	font-family: "Afacad Flux", sans-serif;}
+}
+
 	.memp{
 			width: 100%;
-			padding-top: 3rem}
+			padding-top: 3rem
+			display: block;
+}
 
 	.memp img{
+		padding-top: 2rem;
 		border-radius: 25px;
+		padding-bottom: 0rem;
 	}
 
 	.mobile{
@@ -360,4 +392,3 @@ footer p {
 	}
 
 }
-

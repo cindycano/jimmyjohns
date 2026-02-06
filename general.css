@@ -130,8 +130,8 @@ body {
 }
 
 .mnav img{
-	padding-bottom: .5rem;
-	padding-top: .5rem;
+	padding-bottom: 0rem;
+	padding-top: 0rem;
 }
 .mnav a {
   color: white;
@@ -346,3 +346,4 @@ footer p {
 		width : 25%;
 	}
 }
+

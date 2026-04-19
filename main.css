@@ -5,7 +5,7 @@ html,body{
     padding: 0px;
     overflow-x: hidden; 
 } 
- 
+
 body {
         text-align: center;
         background-color:white;
@@ -205,13 +205,45 @@ body {
 		font-style: italic;
 }
 
-.picklewhich, .box, .cookie, .rewards{
+.thai{
+	background-color: #61071b;
+	border-radius: 25px;
+	color:white;
+	display: block;
+	font-family: "Afacad Flux", sans-serif;
+		padding-top: 2rem;
+	padding-left: 20rem;
+	padding-right: 20rem;
+	padding-bottom: 2rem;
+
+}
+
+.cucumber{
+	padding-top: 2rem;
+	padding-left: 20rem;
+	padding-right: 20rem;
+	padding-bottom: 2rem;
+		display: block;
+	font-family: "Afacad Flux", sans-serif;
+}
+
+
+.lemon{
+	display: block;
+	background-color: #FFF7E0;
+	border-radius: 25px;
+	font-family: "Afacad Flux", sans-serif;
+	color: black;
+}
+
+
+.box,.rewards{
 	color: black;
 	display: block;
 	font-family: "Afacad Flux", sans-serif;
 }
 
-.picklewhich, .box, .cookie, .rewards{
+.cuc, .cookie, .cucumber, .lemon, .rewards, .pbj{
 	padding-top: 2rem;
 	padding-left: 20rem;
 	padding-right: 20rem;
@@ -220,7 +252,7 @@ body {
 
 .cuc{
 	display: block;
-	background-color: #ec1b31;
+	background-color: white;
 	border-radius: 25px;
 	font-family: "Afacad Flux", sans-serif;
 
@@ -228,12 +260,19 @@ body {
 
 .dessert{
 	display: block;
-	background-color: #e5f4f9;
+	background-color: #6b1d11;
 	border-radius: 25px;
 	font-family: "Afacad Flux", sans-serif;
+	color: white;
 }
 
-
+.pbj{
+	display: block;
+	background-color: #5E0B37;
+	border-radius: 25px;
+	font-family: "Afacad Flux", sans-serif;
+	color: white;
+}
 
 .employee{
 	display: block;
@@ -310,25 +349,33 @@ footer p {
 		display: none;
 	}
 
-	.picklewhich, .box, .cookie, .rewards, .title{
+	.cucumber, .box, .cookie, .pbj, .lemon, .thai, .buffalo{
 		padding-left: 5%;
 		padding-right: 5%;
 	}
 
-	.picklewhich img{
-		width: 100%;
+	.cucumber img{
+		width: 75%;
 	}
 
-	.box img{
+	.buffalo img{
 		width: 100%;
 	}
 
 	.cookie img{
+		width: 100%;
+	}
+
+	.pbj img{
 		width : 100%;
 	}
 
-	.rewards img{
-		width : 75%;
+	.lemon img{
+		width : 100%;
+	}
+
+	.thai  img{
+		width:100%;
 	}
 	
 }
@@ -392,4 +439,3 @@ footer p {
 	}
 
 }
-
